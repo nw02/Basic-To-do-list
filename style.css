@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Cor de fundo cinza claro para contraste */
+}
+
+#conteiner {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff; /* Fundo branco para o conteúdo */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave para destaque */
+}
+
+h1 {
+    color: #6a0dad; /* Roxo para o título */
+}
+
+#TypeTask {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#AddTask {
+    background-color: #f9bc60; /* Amarelo para o botão */
+    color: #fff; /* Texto branco para contraste */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+li {
+    background-color: #f9f9f9; /* Fundo cinza claro para os itens da lista */
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd; /* Borda cinza para separar os itens */
+    position: relative;
+}
+
+li:hover {
+    background-color: #e6e6e6; /* Tom mais claro ao passar o mouse */
+}
+
+#deleteButton {
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    background-color: #e74c3c; /* Cor vermelha para o botão de exclusão */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#deleteButton:hover {
+    background-color: #c0392b; /* Tom mais escuro de vermelho ao passar o mouse */
+}
